@@ -1,0 +1,21 @@
+{
+  "name": "MentionProbot",
+  "description": "A Simple Mention All Bot For Telegram.",
+  "env": {
+    "API_ID": {
+      "description": "Enter Your App ID.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Enter Your Api Hash.",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Enter Your Bot Token.",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
